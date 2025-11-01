@@ -15,5 +15,6 @@ services:
       - nginx_letsencrypt:/etc/letsencrypt
 
 networks:
-  nginx:
+  default:
+    name: nginx
     external: true
