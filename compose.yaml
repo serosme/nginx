@@ -8,7 +8,7 @@ services:
     ports:
       - 80:80
       - 443:443
-      - 80:81
+      - 81:81
     volumes:
       - nginx_data:/data
       - nginx_letsencrypt:/etc/letsencrypt
